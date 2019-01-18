@@ -17,7 +17,11 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
+<<<<<<< HEAD
         applicationId "ru.yurizhu"
+=======
+        applicationId "ru.yurzhi"
+>>>>>>> origin/first_lesson
         minSdkVersion 9
         targetSdkVersion 28
         versionCode 1
@@ -86,7 +90,11 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
+<<<<<<< HEAD
     commandLine "$adb", 'shell', 'am', 'start', '-n', 'ru.yurizhu/ru.yurizhu.AndroidLauncher'
+=======
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'ru.yurzhi/ru.yurzhi.AndroidLauncher'
+>>>>>>> origin/first_lesson
 }
 
 // sets up the Android Eclipse project, using the old Ant based build.
